@@ -1,0 +1,92 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "A dedicated Front End Developer fueled by creativity and a drive to push the boundaries of web design, transforming ideas into captivating user experiences"
+    },
+    {
+      "id": 2,
+      "src": "./img/html-5-logo-svgrepo-com.svg",
+      "title": "HTML",
+      "description": "HTML, the cornerstone of every digital experience, with which I craft the solid foundation upon which engaging and accessible websites are built."
+    },
+    {
+      "id": 3,
+      "src": "./img/css-3-logo-svgrepo-com.svg",
+      "title": "CSS",
+      "description": "With a meticulous eye for detail and a passion for design, I harness the full potential of CSS to create captivating and responsive websites."
+    },
+    {
+      "id": 4,
+      "src": "./img/javascript-logo-svgrepo-com.svg",
+      "title": "Javascript",
+      "description": "I specialize in client-side JavaScript development, breathing life into static web pages and transforming them into dynamic applications."
+    },
+    {
+      "id": 5,
+      "src": "./img/react-1-logo-svgrepo-com.svg",
+      "title": "React",
+      "description": "With a deep understanding of React's core principles, I specialize in creating dynamic web experiences that delight users and drive engagement."
+    },
+    {
+      "id": 6,
+      "src": "./img/github-logo-svgrepo-com.svg",
+      "title": "Git and Github",
+      "description": " I excel at managing code repositories,seamless collaboration, and ensuring version control best practices in software development projects."
+    }
+  ],
+  "portfolio": [
+    {
+      "id": 1,
+      "src": "./img/iPort.png",
+      "title": "React Portfolio",
+      "description": "A fully responsive react portfolio, using styled components and Three.js",
+      "link": "https://iport-ten.vercel.app/"
+    },
+    {
+      "id": 2,
+      "src": "./img/shoppingListres.png",
+      "title": "Shopping List App",
+      "description": "Created to focus on the DOM, events, local storage and other fundamentals of JavaScript.",
+      "link": "https://adewoleoluwajuwon.github.io/gitable-shopping-list/"
+    },
+    {
+      "id": 3,
+      "src": "./img/Random Jokes App.png",
+      "title": "Random Chuck Norris Jokes App",
+      "description": "A responsive Javascript app that fetches random chuck Noris Jokes",
+      "link": "https://adewoleoluwajuwon.github.io/ChuckNorrisRandomJokeApp/"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": 1,
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "title": "Ahuse",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quasi doloremque voluptates inventore culpa assumenda in aliquid facere libero nam!",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": 2,
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "title": "Ahuse",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quasi doloremque voluptates inventore culpa assumenda in aliquid facere libero nam!",
+      "author_name": "Kristin Watson",
+      "author_designation": "Luis Vuiton"
+    },
+    {
+      "id": 1,
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "title": "Ahuse",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quasi doloremque voluptates inventore culpa assumenda in aliquid facere libero nam!",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "Mc Donald"
+    }
+  ]
+}
