@@ -39,29 +39,31 @@ export default function ContactMe() {
       <form ref={ref} className="contact-form-container" onSubmit={handleSubmit}>
         <div className="container">
           <label htmlFor="first-name" className="contact--label">
-            <span className="field-label text-md">Name</span>
+            {/* <span className="field-label text-md">Name</span> */}
             <input
               type="text"
               name="from_name"
               className="contact-input text-md"
               id="name"
+              placeholder="Name"
               required
             />
           </label>
     
           <label htmlFor="email" className="contact--label">
-            <span className="field-label text-md">Email</span>
+            {/* <span className="field-label text-md">Email</span> */}
             <input
               type="email"
               name="user_email"
               className="contact-input text-md"
               id="email"
+              placeholder="Email"
               required
             />
           </label>
 
           <label htmlFor="message" className="contact--label">
-            <span className="field-label text-md">Message</span>
+            {/* <span className="field-label text-md">Message</span> */}
             <textarea
               className="contact-input field-label text-md"
               name="message"

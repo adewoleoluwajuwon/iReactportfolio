@@ -398,7 +398,8 @@ nav div img {
 /* Testimonial */
 .testimonial--section {
   display: flex;
-  padding: 112px 84.3px;
+  /* padding: 112px 84.3px; */
+  padding: 4rem;
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
@@ -407,6 +408,7 @@ nav div img {
 .sections--heading {
   color: var(--heading-color);
 }
+
 .testimonial--section--card {
   display: flex;
   padding: 42.6px;
@@ -464,13 +466,14 @@ nav div img {
   justify-content: center;
   align-items: center;  
 }
-.field-label {
+/* .field-label {
   display: block;
   margin-bottom: 0.3rem;
   text-align: left;
-}
+} */
 .contact--label > input {
   display: block;
+  margin-bottom: 2rem;
   width: 100%;
   max-width: 40rem;
   padding: 0.9rem;
@@ -482,6 +485,7 @@ nav div img {
 }
 .contact--label textarea {
   display: block;
+  margin-bottom: 2rem;
   width: 100%;
   max-width: 40rem;
   padding: 0.9rem;
@@ -875,6 +879,21 @@ nav div img {
   }
   .divider {
     margin: 20px;
+  }
+}
+
+/* Testimonials works */
+@media only screen and (max-width: 443px) {
+  .clients {
+    font-size: 1.1rem;
+    line-height: normal;
+  }
+}
+
+@media only screen and (min-width: 442px) and (max-width: 768px) {
+  .clients {
+    font-size: 2rem; 
+    line-height: normal; 
   }
 }
 
