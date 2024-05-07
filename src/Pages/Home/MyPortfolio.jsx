@@ -5,10 +5,10 @@ export default function MyPortfolio() {
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <p className="sub--title">Recent Projects</p>
+          {/* <p className="sub--title">Recent Projects</p> */}
           <h2 className="section--heading">My Portfolio</h2>
         </div>
-        <div>
+        {/* <div>
           <button className="btn btn-github">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ export default function MyPortfolio() {
             </svg>
             Visit My GitHub
           </button>
-        </div>
+        </div> */}
       </div>
       <div className="portfolio--section--container">
         {data?.portfolio?.map((item, index) => (
@@ -40,7 +40,7 @@ export default function MyPortfolio() {
                 <p className="text-md">{item.description}</p>
               </div>
               <p className="text-sm portfolio--link">
-                <a href={item.link} target="_blank">View</a>
+                <a className="view-link" href={item.link} target="_blank">View</a>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
