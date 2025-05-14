@@ -34,7 +34,32 @@
       "id": 6,
       "src": "./img/github-logo-svgrepo-com.svg",
       "title": "Git and Github",
-      "description": " I excel at managing code repositories,seamless collaboration, and ensuring version control best practices in software development projects."
+      "description": " I excel at managing code repositories,seamless collaboration, and ensuring version control best practices in software development projects. Delightsome user experiences."
+    },
+    {
+      "id": 7,
+      "src": "./img/tailwind.png",
+      "title": "Tailwind CSS",
+      "description": "I leverage the power of Tailwind CSS to create visually stunning and responsive web applications, ensuring a seamless user experience across all devices."
+    },
+    {
+      "id": 8,
+      "src": "./img/mysql.png",
+      "title": "MySQL",
+      "description": "I specialize in MySQL database management, ensuring data integrity, performance optimization, and seamless integration with web applications. Delightsome!"
+    },
+    {
+      "id": 9,
+      "src": "./img/sap.png",
+      "title": "SAP Business One",
+      "description": "I specialize in SAP Business One, leveraging its powerful features to streamline business processes and enhance operational efficiency. Success!"
+     
+    },
+    {
+      "id": 10,
+      "src": "./img/Threejs.png",
+      "title": "Three.js",
+      "description": "I specialize in creating immersive 3D experiences using Three.js, transforming web applications into visually stunning and interactive environments."
     }
   ],
   "portfolio": [
@@ -58,7 +83,15 @@
       "title": "Random Chuck Norris Jokes App",
       "description": "A responsive Javascript app that fetches random chuck Noris Jokes",
       "link": "https://adewoleoluwajuwon.github.io/ChuckNorrisRandomJokeApp/"
+    },
+    {
+      "id": 4,
+      "src": "./img/idm.png",
+      "title": "Website",
+      "description": "A fully responsive react wensite, using styled components, tialwind CSS and Framer Motion",
+      "link": "https://idm-phi.vercel.app/"
     }
+    
   ],
   "testimonial": [
     {
